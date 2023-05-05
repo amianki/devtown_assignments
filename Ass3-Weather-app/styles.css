@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+
+body {
+  
+  background: linear-gradient(90deg, rgb(111, 33, 76) 40%, rgb(186, 45, 99) 60% ,rgb(93, 13, 57) 90% )
+  }
+  
+
+#search_bar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+}
+
+.weatherInfo{
+    flex: 0 0 70%;
+    height: 40%;
+    background: #080705;
+    display: flex;
+    align-items: center;
+    color: white;
+    
+  }
+  
+ 
+
+
